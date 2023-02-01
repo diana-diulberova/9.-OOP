@@ -7,4 +7,3 @@ public class ReaderFromTxt {
        return null;
     }
 }
-
