@@ -2,7 +2,11 @@ package Seminar_5.terminal;
 
 import java.util.Scanner;
 
-import Seminar_5.terminal.CommandExecutable;
+import Seminar_5.terminal.executable.Command;
+import Seminar_5.terminal.executable.CommandExecutable;
+import Seminar_5.terminal.executable.CommandExecutableFactory;
+import Seminar_5.terminal.executable.CommandParser;
+import Seminar_5.terminal.executable.LoggingCommandExecutableFactory;
 
 public class TerminalReader {
 
@@ -28,6 +32,8 @@ public class TerminalReader {
             System.out.print("Ввод: ");
             String command = scan.nextLine();
             Command cool = commandParser.parseCommand(command);
+
+            LoggingCommandExecutableFactory commandExecutableFactory = new LoggingCommandExecutableFactory();
 
             CommandExecutable commandExecutable = commandExecutableFactory.create(cool);
 

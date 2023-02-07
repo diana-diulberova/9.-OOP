@@ -1,4 +1,4 @@
-package Seminar_5.terminal;
+package Seminar_5.terminal.executable;
 
 import Seminar_5.data.User;
 
