@@ -1,32 +1,42 @@
 package Seminar_5.repository;
 
-import java.util.List;
-
-import Seminar_5.data.Student;
 import Seminar_5.db.StudentTable;
+import Seminar_5.dto.Student;
 
-public class StudentRepository implements Repository<Student> {
+public class StudentRepository implements UserRepository<Student, Integer> {
+    private StudentTable studentTable;
 
-    private final StudentTable studentTable;
+    public StudentRepository(StudentTable studentTable) {
+        this.studentTable = studentTable;
+    }
 
-    public StudentRepository() {
-        this.studentTable = new StudentTable();
+    public Student deleteStudent(Student student) {
+        studentTable.deleteStudent(student);
+        return null;
+    }
+
+    public Student deleteStudentByFio(String fio) {
+        studentTable.deleteByFio(fio);
+        return null;
+    }
+
+    public Student deleteStudentByGroupAndBirthday(int groupNumber, int birthday) {
+        return null;
     }
 
     @Override
-    public void delete(Student entity) {
-        studentTable.removeByName((String) entity.getFio());
-
+    public Student save(Student entity) {
+        return studentTable.save(entity);
     }
 
     @Override
-    public void save(Student entity) {
-        studentTable.save(entity);
-
+    public Student findById(Integer id) {
+        return null;
     }
 
-    public List<Student> getUsersList() {
-        return studentTable.getElements();
+    @Override
+    public Student findByFio(String fio) {
+        return null;
     }
 
 }

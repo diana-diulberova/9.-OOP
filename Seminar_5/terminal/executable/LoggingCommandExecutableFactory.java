@@ -4,6 +4,8 @@ import java.sql.ResultSetMetaData;
 
 import javax.naming.spi.DirStateFactory.Result;
 
+import Seminar_5.terminal.Command;
+
 public class LoggingCommandExecutableFactory extends CommandExecutableFactoryImpl {
     public LoggingCommandExecutableFactory(){
         

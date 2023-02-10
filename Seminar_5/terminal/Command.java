@@ -1,4 +1,4 @@
-package Seminar_5.terminal.executable;
+package Seminar_5.terminal;
 
 import java.util.ArrayList;
 

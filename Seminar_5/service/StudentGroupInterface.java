@@ -1,6 +1,6 @@
 package Seminar_5.service;
 
-import Seminar_5.data.StudentGroup;
+import Seminar_5.dto.StudentGroup;
 
 public interface StudentGroupInterface {
 

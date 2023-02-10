@@ -1,6 +1,6 @@
 package Seminar_5.terminal.executable;
 
-import Seminar_5.data.Student;
+import Seminar_5.dto.Student;
 import Seminar_5.service.StudentService;
 import Seminar_5.service.StudentServiceImpl;
 

@@ -2,15 +2,15 @@ package Seminar_5.util;
 
 import java.util.List;
 
-import Seminar_5.data.Student;
-import Seminar_5.data.Teacher;
+import Seminar_5.dto.Student;
+import Seminar_5.dto.Teacher;
 
 public class ReadFromTxt {
-    public static Seminar_5.data.Teacher getTeacherFromTxt() {
+    public static Seminar_5.dto.Teacher getTeacherFromTxt() {
         return null;
     }
 
-    public static List<Seminar_5.data.Student> getStudentsFromTxt() {
+    public static List<Seminar_5.dto.Student> getStudentsFromTxt() {
         return null;
     }
 

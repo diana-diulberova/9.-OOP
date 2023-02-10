@@ -1,7 +1,8 @@
 package Seminar_5.view;
 
-import Seminar_5.data.User;
 import java.util.List;
+
+import Seminar_5.dto.User;
 
 public class TeacherView extends UserView {
     

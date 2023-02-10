@@ -1,7 +1,7 @@
 package Seminar_5.controller;
 
-import Seminar_5.data.Student;
-import Seminar_5.data.StudentGroup;
+import Seminar_5.dto.Student;
+import Seminar_5.dto.StudentGroup;
 import Seminar_5.service.DataService;
 import Seminar_5.service.StudentServiceImpl;
 

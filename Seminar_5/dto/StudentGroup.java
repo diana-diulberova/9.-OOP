@@ -1,4 +1,4 @@
-package Seminar_5.data;
+package Seminar_5.dto;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package Seminar_5.terminal.executable;
 
-import Seminar_5.data.Student;
-import Seminar_5.data.User;
+import Seminar_5.dto.Student;
+import Seminar_5.dto.User;
 import Seminar_5.service.StudentService;
 
 public class CreateUserExecutableFactory implements CommandUserExecutableFactory{

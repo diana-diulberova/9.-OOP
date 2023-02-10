@@ -2,10 +2,10 @@ package Seminar_5.service;
 
 import java.util.List;
 
-import Seminar_5.data.Student;
-import Seminar_5.data.StudentGroup;
-import Seminar_5.data.Teacher;
-import Seminar_5.data.User;
+import Seminar_5.dto.Student;
+import Seminar_5.dto.StudentGroup;
+import Seminar_5.dto.Teacher;
+import Seminar_5.dto.User;
 import Seminar_5.util.ReadFromTxt;
 
 public class StudentGroupServiceImpl implements DataService {

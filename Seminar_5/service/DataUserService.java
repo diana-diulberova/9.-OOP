@@ -2,7 +2,7 @@ package Seminar_5.service;
 
 import java.util.List;
 
-import Seminar_5.data.User;
+import Seminar_5.dto.User;
 
 public interface DataUserService<E extends User> {
     void write(E user);

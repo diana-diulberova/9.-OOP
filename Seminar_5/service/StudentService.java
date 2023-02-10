@@ -3,8 +3,8 @@ package Seminar_5.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import Seminar_5.data.Student;
-import Seminar_5.data.User;
+import Seminar_5.dto.Student;
+import Seminar_5.dto.User;
 import Seminar_5.repository.StudentRepository;
 import Seminar_5.util.ReaderFromTxt;
 
